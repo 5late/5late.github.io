@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <header id="Entry">
+    <div class="Entry">
+        <h2>
+            Welcome to Xurxxist.
+        </h2>
+        <div class="entryAlpha">
+            <h1>
+                Alpha 1.0
+            </h1>
+        </div>    
+    </div>
+</header>
+    <nav>
+    <div class="navBar">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clips.html">Clips</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+            <li><a href="development.html">Development</a></li>
+        </ol>
+    </div>
+    </nav>
+
+
+    <label>
+        <input type="checkbox">
+        <span class="check"></span>
+    </label>
+
+     <div class="social-icons">
+        <a class="social-icon instagram" href="https://www.instagram.com/xurxxstreams">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="social-icon youtube" href="https://www.youtube.com/channel/UCRD0-uDVbJqq5mMDc0QOPFQ?view_as=subscriber">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a class="social-icon twitch" href="https://twitch.tv/xurxxist">
+            <i class="fab fa-twitch"></i>
+        </a>
+        <a class="social-icon github" href="https://github.com/5late/Website">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+    
+    <div id="preLoader">
+        <div class="circle" id="one">
+            <div class="circle" id="two">
+                <div class="circle" id="three"></div>
+            </div>
+        </div>
+    </div>
+  
+
+<div class="profilePic">
+    <a href="social.html">
+    <img src="csgoxurxx.jpg" alt="My Profile">
+        <div class="details">
+            <h1>My Profile Picture</h1>
+        </div>
+    </a>
+</div>
+
+
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {scrollDown()};
+
+// Get the header
+var header = document.getElementById("Entry");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function scrollDown() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+setTimeout(function() {
+    $('#preLoader').fadeOut('fast');
+}, 800); 
+
+</script>
+
+
+</body>
+</html>
