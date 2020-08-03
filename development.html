@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development</title>
+    <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="devepBody">
+    <nav>
+        <div class="navBar">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clips.html">Clips</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+                <li><a href="development.html">Development</a></li>
+            </ol>
+        </div>
+        </nav>
+    
+        <div class="githubButtontext">
+            <p> Vist the Github Repository for this project</p>
+        </div>
+
+        <button>
+            <a href="https://github.com/5late/Website">
+                <div class="githubIcondevep">
+                    <i class="fab fa-github"></i>
+                </div>
+            </a>
+        </button>
+    <buttn id="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </buttn>
+
+<div class="SectionButtons"> 
+    <button class="devepButton">
+        <a class="devepButtonEmbed" href="#indexEmbed">Go to Index</a>
+    </button>
+    <button class="devepButton">
+        <a class="devepButtonEmbed" href="#clipsEmbed"> Go to Clips</a>
+    </button> 
+    <button class="devepButton">
+        <a class="devepButtonEmbed" href="#contactEmbed">Go to Contact</a>
+    </button>
+    <button class="devepButton">
+        <a class="devepButtonEmbed" href="#devepEmbed"> Go to Development</a>
+    </button>
+</div>
+        
+    <div id="indexEmbed">
+        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2F5late%2FWebsite%2Fblob%2Fmaster%2Findex.html&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
+    </div>
+
+    <div id="clipsEmbed">
+        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2F5late%2FWebsite%2Fblob%2Fmaster%2Fclips.html&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
+    </div>
+
+    <div id="contactEmbed">
+        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2F5late%2FWebsite%2Fblob%2Fmaster%2Fcontactme.html&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
+    </div>
+    
+    <div id="devepEmbed">
+        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2F5late%2FWebsite%2Fblob%2Fmaster%2Fdevelopment.html&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
+    </div>
+
+
+
+
+<script>
+
+const backToTopButton = document.querySelector("#back-to-top-btn");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+  if (window.pageYOffset > 300) { // Show backToTopButton
+    if(!backToTopButton.classList.contains("btnEntrance")) {
+      backToTopButton.classList.remove("btnExit");
+      backToTopButton.classList.add("btnEntrance");
+      backToTopButton.style.display = "block";
+    }
+  }
+  else { // Hide backToTopButton
+    if(backToTopButton.classList.contains("btnEntrance")) {
+      backToTopButton.classList.remove("btnEntrance");
+      backToTopButton.classList.add("btnExit");
+      setTimeout(function() {
+        backToTopButton.style.display = "none";
+      }, 250);
+    }
+  }
+}
+
+backToTopButton.addEventListener("click", smoothScrollBackToTop);
+
+function smoothScrollBackToTop() {
+  const targetPosition = 0;
+  const startPosition = window.pageYOffset;
+  const distance = targetPosition - startPosition;
+  const duration = 750;
+  let start = null;
+  
+  window.requestAnimationFrame(step);
+
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const progress = timestamp - start;
+    window.scrollTo(0, easeInOutCubic(
+        progress, 
+        startPosition, 
+        distance, 
+        duration
+    ));
+    if (progress < duration) window.requestAnimationFrame(step);
+  }
+}
+
+function easeInOutCubic(t, b, c, d) {
+	t /= d/2;
+	if (t < 1) return c/2*t*t*t + b;
+	t -= 2;
+	return c/2*(t*t*t + 2) + b;
+};
+</script>
+</body>
+</html>
