@@ -200,7 +200,7 @@ ol li:hover{
 }
 
 .social-icon.instagram:after{
-background-color: #d017e9;
+    background-color: #d017e9;
 }
 
 .social-icon.github:after{
@@ -575,6 +575,56 @@ top: 90%; left: 50%;
     }
   }
   
+.socialpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialSpecial i {
+    font-size: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.socialSpecial{
+    color: rgb(50, 50 , 50);
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+    padding:10px ;
+    border-radius: 50%;
+    background: black;
+    transition: all 0.4s;
+}
+
+.socialSpecial:hover{
+    color: #4c167e;
+}
+
+.socialSpecial::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(50, 50, 50);
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.socialSpecial:hover::after {
+    background: #4c167e;
+}
+
+.importantSocial {
+    font-size: 50px;  
+}
 
 @media (prefers-color-scheme: dark) {
     body {
