@@ -680,6 +680,39 @@ top: 90%; left: 50%;
     padding: 15px 60px;
 }
 
+.featuredClip {
+    background: linear-gradient(to right, #9742e6 50%, #00ffcc94) ;
+    border-radius: 2    5px;
+}
+
+.childfeaturedClip {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.featuredText {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -27%;
+    left: 10%;
+    font-weight: 600; font-size: 35pt;
+    font-family: monospace;
+}
+
+.fontBelow {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -40%; 
+    left: 17%;
+    font-weight: 600; font-size: 35pt;
+    font-family: monospace;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color:#fff;
