@@ -680,8 +680,6 @@ top: 90%; left: 50%;
     padding: 15px 60px;
 }
 
-
-
 @media (prefers-color-scheme: dark) {
     body {
         color:#fff;
