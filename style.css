@@ -42,12 +42,11 @@ a {
 /*test for discord*/
 
 .entryAlpha {
+    position: relative;
+    left: 40rem;
     color: #944d38;
-    font-size: xx-small;
-    position: fixed;
-    top: 48%; left: 122vmin;
+    font-size: xx-small;   
 }
-
 ol{
     list-style: none;
     display: flex;
