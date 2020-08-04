@@ -44,7 +44,7 @@ a {
 .entryAlpha {
     color: #944d38;
     font-size: xx-small;
-    position: absolute;
+    position: fixed;
     top: 48%; left: 122vmin;
 }
 
