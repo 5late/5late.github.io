@@ -17,14 +17,13 @@ a {
 }
 
 .navBar{
-    position: relative;
     background-color: black;
-    width: 100vw;
-    height: 8%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
     z-index: 1;
+    width: 100vw;
 }
 
 .Entry{
@@ -95,6 +94,7 @@ ol li:hover{
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));*/
     flex-wrap: wrap;
+    width: 100vw;
 }
 
 .clip1 {
