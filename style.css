@@ -22,8 +22,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    z-index: 1;
-    width: 100vw;
+    z-index: 2000;
 }
 
 .Entry{
