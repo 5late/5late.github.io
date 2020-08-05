@@ -19,7 +19,7 @@ a {
 .navBar{
     position: relative;
     background-color: black;
-    width: 100%;
+    width: 100vw;
     height: 8%;
     display: flex;
     justify-content: center;
@@ -37,6 +37,7 @@ a {
     color: #4c167e;
     position: relative;
     z-index: 3;
+    width: 100vw;
 }
 
 /*test for discord*/
@@ -152,9 +153,10 @@ ol li:hover{
     box-shadow: inset 0 0 20px 20px #4c167e;
     /*display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-gap: 10px;
-    display: flex;*/
+    grid-gap: 10px;*/
+    display: flex;
     flex-wrap: wrap;
+    width: 100vw;
 }
 
 
