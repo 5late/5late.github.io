@@ -90,9 +90,10 @@ ol li:hover{
     /*background-color: #161616;*/
     margin: 1%;
     display: flex;
-    display: grid;
+    /*display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));*/
+    flex-wrap: wrap;
 }
 
 .clip1 {
@@ -149,9 +150,11 @@ ol li:hover{
     background: radial-gradient( #803880 25%, #1f1e1e 55%);
     -webkit-box-shadow: inset 0 0 20px 20px #4c167e;
     box-shadow: inset 0 0 20px 20px #4c167e;
-    display: grid;
+    /*display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 10px;
+    display: flex;*/
+    flex-wrap: wrap;
 }
 
 
