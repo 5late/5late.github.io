@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-    position: fixed;
+    
     top: 0;
     right: 0;
     left: 0;
@@ -16,7 +16,6 @@ html {
 
 body{
     background-color: #1c1d1d;
-    position: fixed;
     top: 0;
     right: 0;
     left: 0;
