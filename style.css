@@ -1,10 +1,32 @@
 html{
-    background-color: #0717479d;
+    background-color: #1229129d;
 }
 
 #profilePicture{
-    max-width: 15vw;
-    height: auto;
+    position: absolute;
+    top: 29vh;
+    left: 30vw;
+    max-width: 300px;
     border-radius: 100%;
-    transform: scale(1);
+    box-shadow: 4px 4px 20px 12px #00000093;
+}
+
+#statCard{
+    position: absolute;
+    top: 35vh;
+    left: 50vw;
+    width: 450px;
+    box-shadow: 4px 4px 20px 12px #00000093;
+}
+
+#viewProjects{
+    border: solid #00000057 3px;
+    background: transparent;
+    width: 400px;
+    font-size: 4vh;
+    position: absolute;
+    top: 70vh;
+    left: 37vw;
+    cursor: pointer;
+    border-radius: 20px;
 }
