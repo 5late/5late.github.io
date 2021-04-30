@@ -1,32 +1,64 @@
+@media only screen and (max-width: 600px) {}
+
 html{
     background-color: #1229129d;
 }
 
+#pfpDiv{
+    width: 100%;
+    position: relative;
+    top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+#statDiv{
+    width: 100%;
+    position: relative;
+    top: 4em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#creditDiv {
+    position: relative;
+    top: 5em;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 1.5vh;
+}
+
 #profilePicture{
-    position: absolute;
-    top: 29vh;
-    left: 30vw;
-    max-width: 300px;
-    border-radius: 100%;
-    box-shadow: 4px 4px 20px 12px #00000093;
+    width: 17em;
+    border-radius: 50%;
+    box-shadow: 4px 4px 20px 12px #00000052;
 }
 
 #statCard{
-    position: absolute;
-    top: 35vh;
-    left: 50vw;
-    width: 450px;
-    box-shadow: 1px 15px 20px 15px #00000093;
+    width: 22em;
+    box-shadow: 1px 15px 20px 15px #00000050;
+}
+
+#btnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6em;
 }
 
 #viewProjects{
-    border: solid #00000057 3px;
+    border: solid #0000002a 5px;
     background: transparent;
     width: 400px;
     font-size: 4vh;
-    position: absolute;
-    top: 70vh;
-    left: 37vw;
     cursor: pointer;
     border-radius: 20px;
+    padding: 8px;
+    font-family: 'Mandali';
+    font-weight: 600;
 }
