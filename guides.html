@@ -11,7 +11,18 @@
 </body>
 <script>
     fetch('https://api.github.com/repos/5late/5late.github.io/git/trees/master?recursive=2').then(response => response.json()).then(data => {
-        console.log(data.tree)
+        var items = data.tree
+        for (var i = 0; i < items.length; i++){
+            if (data.tree[i].path.startsWith('guides/') && data.tree[i].path.endsWith('.md')){
+                console.log(data.tree[i].path)
+                let link = document.createElement('a')
+                link.href = './' + data.tree[i].path
+                let text = document.createElement('h6')
+                text.innerText = data.tree[i].path.substring(7)
+                link.appendChild(text)
+                document.body.appendChild(link)
+            }
+        }
     })
 </script>
 </html>
