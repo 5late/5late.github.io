@@ -16,7 +16,7 @@
             if (data.tree[i].path.startsWith('guides/') && data.tree[i].path.endsWith('.md')){
                 console.log(data.tree[i].path)
                 let link = document.createElement('a')
-                link.href = './' + data.tree[i].path
+                link.href = '5late.github.io/' + data.tree[i].path
                 let text = document.createElement('h6')
                 text.innerText = data.tree[i].path.substring(7)
                 link.appendChild(text)
