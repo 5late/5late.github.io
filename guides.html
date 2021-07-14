@@ -10,13 +10,19 @@
     
 </body>
 <script>
+    function term(str, char) {
+    var xStr = str.substring(0, str.length - 2);
+    return xStr + char;
+    }
+
     fetch('https://api.github.com/repos/5late/5late.github.io/git/trees/master?recursive=2').then(response => response.json()).then(data => {
         var items = data.tree
         for (var i = 0; i < items.length; i++){
             if (data.tree[i].path.startsWith('guides/') && data.tree[i].path.endsWith('.md')){
                 console.log(data.tree[i].path)
                 let link = document.createElement('a')
-                link.href = '5late.github.io/' + data.tree[i].path
+                let proper_link = term(data.tree[i].path, '.html')
+                link.href = '5late.github.io/' + proper_link
                 let text = document.createElement('h6')
                 text.innerText = data.tree[i].path.substring(7)
                 link.appendChild(text)
