@@ -11,7 +11,7 @@
 </body>
 <script>
     function term(str, char) {
-    var xStr = str.substring(0, str.length - 2);
+    var xStr = str.substring(0, str.length - 3);
     return xStr + char;
     }
 
@@ -22,6 +22,7 @@
                 console.log(data.tree[i].path)
                 let link = document.createElement('a')
                 let proper_link = term(data.tree[i].path, '.html')
+                console.log(proper_link)
                 link.href = '5late.github.io/' + proper_link
                 let text = document.createElement('h6')
                 text.innerText = data.tree[i].path.substring(7)
