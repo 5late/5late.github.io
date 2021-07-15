@@ -1,7 +1,12 @@
 @media only screen and (max-width: 600px) {}
 
 html{
-    background-color: #1229129d;
+    background-color: #192c35e8;
+    color: #c9d5e0;
+}
+
+a{
+    color: #c9d5e0;
 }
 
 #pfpDiv{
@@ -61,4 +66,8 @@ html{
     padding: 8px;
     font-family: 'Mandali';
     font-weight: 600;
+}
+
+#header {
+    font-family: 'Zen Tokyo Zoo';
 }
