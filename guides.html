@@ -11,10 +11,14 @@
     <meta content="https://5late.github.io/imgs/smokingwojak.jpg" property="og:image">
     <meta content="#43B581" data-react-helmet="true" name="theme-color">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <meta http-equiv="refresh" content="0; URL=https://5late.github.io/guides/README.html" />
 </head>
 <body>
-    
+    <h1>Linux Guides</h1>
+    <p>A collection of guides I write as I experiment in Linux and technology.</p>
+    <div id="searchDropdown" class="dropdown-content">
+        <i class="fas fa-search" id="searchIcon"></i>
+        <input type="text" placeholder="Search.." id="searchInput" onkeyup="filterFunction()">
+    </div>
 </body>
 <script>
     function term(str, char) {
@@ -32,12 +36,27 @@
                 let proper_link = term(data.tree[i].path, '.html')
                 console.log(proper_link)
                 link.href = 'https://5late.github.io/' + proper_link
-                let text = document.createElement('h6')
+                let text = document.createElement('h4')
                 text.innerText = data.tree[i].path.substring(7)
                 link.appendChild(text)
-                //document.body.appendChild(link)
+                document.body.appendChild(link)
             }
         }
     })
+    function filterFunction() {
+        var input, filter, link, i;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        
+        link = document.body.getElementsByTagName("a");
+        for (i = 0; i < link.length; i++) {
+            txtValue = link[i].textContent || link[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) >= 0) {
+            link[i].style.display = "";
+            } else {
+            link[i].style.display = "none";
+            }
+        }
+    }
 </script>
 </html>
