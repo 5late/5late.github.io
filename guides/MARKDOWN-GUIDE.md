@@ -12,3 +12,5 @@
 | ------ | ------- |
 | \*italics\* | *italics* |
 | \*\*bold\*\* | **bold** |
+| \~\~strikethrough\~\~ | ~~strikethrough~~ |
+| \_\_underlines\_\_ | __underlines__ |
