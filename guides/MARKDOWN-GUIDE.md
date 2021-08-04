@@ -13,5 +13,5 @@
 | \*italics\* | *italics* |
 | \*\*bold\*\* | **bold** |
 | \~\~strikethrough\~\~ | ~~strikethrough~~ |
-| <\ins>underlines<\/ins> | <ins>underlines</ins> |
+| <\\ins>underlines<\/ins> | <ins>underlines</ins> |
 | \- bullet point | - bullet point |
