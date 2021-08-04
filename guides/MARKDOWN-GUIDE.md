@@ -30,10 +30,15 @@ Renders:
 Syntax:
 
 \# Big Header
+
 \#\# Slightly Smaller
+
 \#\#\# Smaller
+
 \#\#\#\# Small
+
 \#\#\#\#\# Very Small
+
 \#\#\#\#\#\# Tiny
 
 Renders:
