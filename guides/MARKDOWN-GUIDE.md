@@ -13,5 +13,12 @@
 | \*italics\* | *italics* |
 | \*\*bold\*\* | **bold** |
 | \~\~strikethrough\~\~ | ~~strikethrough~~ |
-| &lt;ins> underlines &lt;/ins> | <ins>underlines</ins> |
-| \- bullet point | - bullet point |
+| &lt;ins>underlines&lt;/ins> | <ins>underlines</ins> |
+
+#### Bullet Points
+
+Syntax:
+\ - bullet point
+
+Renders:
+- bullet point
