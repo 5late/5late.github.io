@@ -7,6 +7,7 @@
 
 ## Guide
 
+### Text
 
 | Syntax | Renders |
 | ------ | ------- |
@@ -23,3 +24,23 @@ Syntax:
 
 Renders:
 - bullet point
+
+### Headers
+
+Syntax:
+
+\# Big Header
+\#\# Slightly Smaller
+\#\#\# Smaller
+\#\#\#\# Small
+\#\#\#\#\# Very Small
+\#\#\#\#\#\# Tiny
+
+Renders:
+
+# Big Header
+## Slight Smaller
+### Smaller
+#### Small
+##### Very Small
+###### Tiny
