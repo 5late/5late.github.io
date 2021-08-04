@@ -18,6 +18,7 @@
 #### Bullet Points
 
 Syntax:
+
 \ - bullet point
 
 Renders:
