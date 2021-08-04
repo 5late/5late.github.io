@@ -19,7 +19,7 @@
 
 Syntax:
 
-\ - bullet point
+ \- bullet point
 
 Renders:
 - bullet point
