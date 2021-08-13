@@ -35,7 +35,7 @@
             if (data.tree[i].path.startsWith('guides/') && data.tree[i].path.endsWith('.md')){
                 if (data.tree[i].path.startsWith('guides/HIDDEN')) {
                     return
-                }
+                }else {
                 console.log(data.tree[i].path)
                 let link = document.createElement('a')
                 let proper_link = term(data.tree[i].path, '.html')
@@ -45,6 +45,7 @@
                 text.innerText = data.tree[i].path.substring(7)
                 link.appendChild(text)
                 document.body.appendChild(link)
+                }
             }
         }
     })
