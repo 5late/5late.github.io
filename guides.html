@@ -33,6 +33,9 @@
         var items = data.tree
         for (var i = 0; i < items.length; i++){
             if (data.tree[i].path.startsWith('guides/') && data.tree[i].path.endsWith('.md')){
+                if (data.tree[i].path.startsWith('guides/HIDDEN')) {
+                    return
+                }
                 console.log(data.tree[i].path)
                 let link = document.createElement('a')
                 let proper_link = term(data.tree[i].path, '.html')
