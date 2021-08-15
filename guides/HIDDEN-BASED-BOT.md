@@ -30,7 +30,6 @@
     - Time last called Based/Cringe
 
 - ``./whoami`` should return a quick rundown of the bot (same as ``./help``)
-- ``./commands`` should return a list of commands the bot has 
 
 ## Q&A
 
