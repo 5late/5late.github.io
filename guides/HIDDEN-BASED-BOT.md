@@ -28,8 +28,29 @@
     - Cringe Score
     - Cringe Title
     - Time last called Based/Cringe
+    - Badges
 
 - ``./whoami`` should return a quick rundown of the bot (same as ``./help``)
+- Check how based someone else is with ``./basedcount @person``, this should return all the same info as ``./mybasedcount``
+- Check your profile settings with ``./settings``
+- *Change* your profile settings with ``./settings SETTING NEWVALUE``, accepted SETTINGS are:
+    - Public Profile
+        - True/False
+        - Public/Private
+    - Show Badges on Profile
+        - True/False
+
+## Badges
+
+- Early Adopter
+    - Anyone who uses the bot in the coming weeks will get the Early Adopter badge
+- Alpha Tester
+    - Anyone who does basic bot testing with me before a command is released will earn this badge
+    - The people involved in letting the bot join the server will also earn this badge
+- Developer
+    - Contributing code to the bot will earn you this badge
+- Donator
+    - Donating any amount to the bot creator will earn you this badge
 
 ## Q&A
 
