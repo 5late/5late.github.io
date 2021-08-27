@@ -22,4 +22,10 @@
 
 ### Disk should now return to normal
 
+#### Note
+
+- While you will still be able to use the Windows Search as usual, Microsoft will complain with this message:
+
+![Microsoft Complaint](./media/microsoft-complain.png)
+
 ~ 5late
