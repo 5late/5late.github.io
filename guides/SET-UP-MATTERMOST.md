@@ -8,7 +8,7 @@
 
 - Have a functional MatterMost server which can be connected to from the browser
 
-## Notice: I will be following [this](https://wiki.archlinux.org/title/Mattermost) tutorial for most of this set up.
+#### Notice: I will be following [this](https://wiki.archlinux.org/title/Mattermost) tutorial for most of this set up.
 
 ## Start
 
