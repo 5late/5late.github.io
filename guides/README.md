@@ -4,11 +4,19 @@
 
 ---
 
-## Unsolved Issues
+### About 
+
+- The guides on this site were written about an assortment of things I have attempted/done over the last few months
+- Some guides may be very beginner level, while others may be much more advanced
+- The purpose of this is to document my progress in technology, and also so other people don't have to spend as long as I did to fix simple problems :/
+- I write guides about almost anything, the topics may seem very random, but I find it helpful to document even the simplest of things for others or myself
+- You can write to me [here](https://github.com/5late/5late/issues), or on [Discord](https://slatedev.xyz/contact/discord/).
+
+### Unsolved Issues
 
 - Please create an issue with your bug if it is unsolved as of yet. Do **NOT** create an unfinished guide.
 
-## Contributing
+### Contributing
 
 **You can write your own guide too!**
 
@@ -23,7 +31,7 @@ Please read the following *before* creating a guide:
 - All files must be signed by the author (Helps know who to go to for issues)
 - Code/Commands **MUST** be put in code tags (``)
 
-## Articles
+### Articles
 
 - [Fix a broken GRUB](./FIX-BROKEN-GRUB.md)
 - [Fix broken kernel on boot](./FIX-BROKEN-KERNEL-BOOT.md)
