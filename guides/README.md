@@ -10,6 +10,10 @@
 - Some guides may be very beginner level, while others may be much more advanced
 - The purpose of this is to document my progress in technology, and also so other people don't have to spend as long as I did to fix simple problems :/
 - I write guides about almost anything, the topics may seem very random, but I find it helpful to document even the simplest of things for others or myself
+- If you would like to request a guide, [contact](#contact) me.
+
+### Contact
+
 - You can write to me [here](https://github.com/5late/5late/issues), or on [Discord](https://slatedev.xyz/contact/discord/).
 
 ### Unsolved Issues
