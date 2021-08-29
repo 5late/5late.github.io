@@ -26,6 +26,7 @@ Please read the following *before* creating a guide:
 ## Articles
 
 - [Fix a broken GRUB](./FIX-BROKEN-GRUB.md)
+- [Fix broken kernel on boot](./FIX-BROKEN-KERNEL-BOOT.md)
 - [Fix Pulseaudio permission error](./FIX-PULSEAUDIO-PERMISSIONS.md)
 - [Fix Flameshot not launching](./FLAMESHOT-DO-NOT-WORK.md)
 - [Setup MatterMost](./SET-UP-MATTERMOST.md)
