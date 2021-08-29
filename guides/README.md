@@ -35,7 +35,7 @@ Please read the following *before* creating a guide:
 
 - [Fix a broken GRUB](./FIX-BROKEN-GRUB.md)
 - [Fix broken kernel on boot](./FIX-BROKEN-KERNEL-BOOT.md)
-- [Fix Pulseaudio permission error](./FIX-PULSEAUDIO-PERMISSIONS.md)
+- [Fix Pulseaudio permission error](./FIX-PULSEAUDIO-PERMISSION.md)
 - [Fix Flameshot not launching](./FLAMESHOT-DO-NOT-WORK.md)
 - [Setup MatterMost](./SET-UP-MATTERMOST.md)
 - [Fix Windows 100% disk usage](./FIX-WINDOWS-100-DISK-USAGE.md)
