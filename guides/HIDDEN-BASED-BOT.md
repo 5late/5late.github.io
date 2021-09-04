@@ -3,12 +3,15 @@
 ## What is Based Bot?
 
 - Based Bot is the Discord bot created by [5late](https://github.com/5late) to keep track of how based (and cringe) users are.
+- Read Based Bot's Privacy Policy [here](https://gist.github.com/5late/3b722759646efc31ecbc0a2ffaa8ee74)
 
 ## How can I become more based?
 
 - To become more based, *another* user must call you based. The syntax **MUST** follow as shown:
 
 ``Based @you``
+
+- Note: The person can also reply to your message with the word "Based"
 
 - If everything goes well, the bot should react to the based message with a :thumbsup: emote.
 - Your based score will rise by 1.
@@ -29,6 +32,7 @@
     - Cringe Title
     - Time last called Based/Cringe
     - Badges
+    - Based to Cringe Ratio
 
 - ``./whoami`` should return a quick rundown of the bot (same as ``./help``)
 - Check how based someone else is with ``./basedcount @person``, this should return all the same info as ``./mybasedcount``
@@ -39,6 +43,14 @@
         - Public/Private
     - Show Badges on Profile
         - True/False
+- ``./fed`` will send a picture of the FBI with your profile picture poorly cropped on top. ``./fed @USER`` will return a picture of the FBI with the profile picture of the person you @'d on top
+
+## Leaderboards
+
+- The bot tracks progress on global leaderboards!
+- See the based leaderboard [here](https://slatedev.xyz/basedbot/basedleaderboard)
+- See the cringe leaderboard [here](https://slatedev.xyz/basedbot/cringeleaderboard)
+- Using the commands ``./basedleaderboard`` and ``./cringeleaderboard`` will hyperlink the links above
 
 ## Badges
 
