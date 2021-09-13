@@ -17,6 +17,20 @@
 | \~\~strikethrough\~\~ | ~~strikethrough~~ |
 | &lt;ins>underlines&lt;/ins> | <ins>underlines</ins> |
 
+#### Code blocks
+
+Syntax:
+
+ \`\`\`
+ code here
+ \`\`\`
+
+Renders:
+
+ ```
+ code here
+ ```
+
 #### Bullet Points
 
 Syntax:
