@@ -11,6 +11,7 @@
 
 | Syntax | Renders |
 | ------ | ------- |
+| \`\`inline code\`\` | ``inline code`` |
 | \*italics\* | *italics* |
 | \*\*bold\*\* | **bold** |
 | \~\~strikethrough\~\~ | ~~strikethrough~~ |
