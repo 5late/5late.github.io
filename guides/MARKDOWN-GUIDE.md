@@ -53,7 +53,7 @@ Syntax:
 
 Renders:
 
-    - bullet point
+- bullet point
 
 ### Headers
 
