@@ -43,7 +43,7 @@ Syntax:
 
 Renders:
 
-> comment here
+> comment here [view properly on GitHub](https://github.com/5late/5late.github.io/blob/master/guides/MARKDOWN-GUIDE.md#inline-comments)
 
 #### Bullet Points
 
@@ -52,7 +52,8 @@ Syntax:
  \- bullet point
 
 Renders:
-- bullet point
+
+    - bullet point
 
 ### Headers
 
