@@ -23,7 +23,7 @@ Syntax:
 
  \`\`\`
  code here
- 
+
  more code here
  \`\`\`
 
@@ -34,6 +34,16 @@ code here
 
 more code here
 ```
+
+#### Inline Comments
+
+Syntax:
+ 
+ \> comment here
+
+Renders:
+
+> comment here
 
 #### Bullet Points
 
