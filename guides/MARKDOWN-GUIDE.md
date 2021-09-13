@@ -23,12 +23,14 @@ Syntax:
 
  \`\`\`
  code here
+ more code here
  \`\`\`
 
 Renders:
 
  ```
  code here
+ more code here
  ```
 
 #### Bullet Points
