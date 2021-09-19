@@ -45,6 +45,7 @@ Please read the following *before* creating a guide:
 - [Set up MatterMost](./SET-UP-MATTERMOST.md)
 - [Set up VSCode](./SETUP-VSCODE.md)
 - [Fix Windows 100% disk usage](./FIX-WINDOWS-100-DISK-USAGE.md)
+- [Install from AUR](./arch/INSTALL-FROM-AUR.md)
 
 --- 
 
