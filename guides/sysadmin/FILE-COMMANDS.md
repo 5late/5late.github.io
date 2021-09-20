@@ -40,4 +40,4 @@
 - Similar to ``more``, but allows you to search through the file with the ``/`` key
 - To search, hit ``/`` then type the phrase you would like to search for
     - All accounts of that phrase will be highlighted, starting with the first
-- ``q`` to quit, [Don't let this happen!](https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor)
+- ``q`` to quit, [Don't join 2.4 million others!](https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor)
