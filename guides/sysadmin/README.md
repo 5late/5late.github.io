@@ -6,6 +6,8 @@
 
 ## Articles
 
-- [Packages](./packages)
+**Getting Started:**
+- [Basic Linux File Commands]()
+- [Helpful Packages](./packages)
 
 ~ *Slate*
