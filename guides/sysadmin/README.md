@@ -7,7 +7,8 @@
 ## Articles
 
 **Getting Started:**
-- [Basic Linux File Commands]()
+- [Make a New User](./newb/MAKE-A-NEW-USER.md)
+- [Basic Linux File Commands](./FILE-COMMANDS.md)
 - [Helpful Packages](./packages)
 
 ~ *Slate*
