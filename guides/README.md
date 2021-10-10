@@ -35,6 +35,10 @@ Please read the following *before* creating a guide:
 - All files must be signed by the author (Helps know who to go to for issues)
 - Code/Commands **MUST** be put in code tags (``)
 
+### Sub-Topics
+
+- [System Administration](./sysadmin/)
+
 ### Articles
 
 - [Fix a broken GRUB](./FIX-BROKEN-GRUB.md)
