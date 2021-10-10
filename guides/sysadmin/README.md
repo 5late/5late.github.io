@@ -12,6 +12,7 @@
 - [Basic Linux File Commands](./FILE-COMMANDS.md)
 
 **Helpful Tips/Tricks:**
+
 - [Helpful Packages](./packages)
 
 ~ *Slate*
