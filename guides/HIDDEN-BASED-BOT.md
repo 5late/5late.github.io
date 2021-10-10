@@ -5,13 +5,15 @@
 - Based Bot is the Discord bot created by [5late](https://github.com/5late) to keep track of how based (and cringe) users are.
 - Read Based Bot's Privacy Policy [here](https://gist.github.com/5late/3b722759646efc31ecbc0a2ffaa8ee74)
 
-## How can I become more based?
+## How can I become more based/cringe?
 
-- To become more based, *another* user must call you based. The syntax **MUST** follow as shown:
+- To become more based/cringe, *another* user must call you based/cringe. The syntax **MUST** follow as shown:
 
 ``Based @you``
+or
+``Cringe @you``
 
-- Note: The person can also reply to your message with the word "Based"
+- Note: The person can also reply to your message with the word "Based/Cringe"
 
 - If everything goes well, the bot should react to the based message with a :thumbsup: emote.
 - Your based score will rise by 1.
@@ -20,8 +22,8 @@
 
 - The bot has a 3 second cooldown on each 'based' message. 
 - You cannot get called 'based' by the same user twice in a row.
-- Spamming the bot *will* result in you getting blacklisted. Blacklists are *usually* permanent, and I do not care how much you cry, shouldn't have spammed.
-- If spam is suspected, I will reset your based/cringe counter to 0.
+- Spamming the bot *will* result in you getting blacklisted. Blacklists are *usually* permanent, shouldn't have spammed.
+- If soft spam is suspected, I will reset your based/cringe counter to 0.
 
 ## Commands
 
@@ -33,6 +35,7 @@
     - Time last called Based/Cringe
     - Badges
     - Based to Cringe Ratio
+    - An image, depending on whether your Based-Cringe Ratio is positive or not
 
 - ``./whoami`` should return a quick rundown of the bot (same as ``./help``)
 - Check how based someone else is with ``./basedcount @person``, this should return all the same info as ``./mybasedcount``
@@ -49,7 +52,9 @@
 
 - The bot tracks progress on global leaderboards!
 - See the based leaderboard [here](https://slatedev.xyz/basedbot/basedleaderboard)
+    - The older version of the based leaderboard can be viewed [here](https://slatedev.xyz/basedbot/basedleaderboard/old)
 - See the cringe leaderboard [here](https://slatedev.xyz/basedbot/cringeleaderboard)
+    - The older version of the cringe leaderboard can be viewed [here](https://slatedev.xyz/basedbot/cringeleaderboard/old)
 - Using the commands ``./basedleaderboard`` and ``./cringeleaderboard`` will hyperlink the links above
 
 ## Badges
@@ -63,6 +68,12 @@
     - Contributing code to the bot will earn you this badge
 - Donator
     - Donating any amount to the bot creator will earn you this badge
+- 50 Based Count
+- 100 Based Count
+- 200 Based Count
+- 50 Cringe Count
+- 100 Cringe Count
+- 200 Cringe Count
 
 ## Q&A
 
@@ -75,18 +86,17 @@
 
 - DM the bot creator, ``Xurxx#7879``.
 - Use the ``./ask`` command, as explained above.
-- Ping bot creator in the server channels, if I'm around, and your question isn't stupid, I'll answer.
+- Ping bot creator in the server channels, if I'm around, I'll answer.
 
 ## Development
 
-- I am planning to make the bot **fully open source**, and would appreciate pull requests with helpful changes.
+- The bot is licensed under [GPL-2.0](https://github.com/5late/Based-Bot/blob/master/LICENSE).
+- Head over to the [GitHub page](https://github.com/5late/Based-Bot/) to view the source, and contribute code.
 - The bot is developed in 100% Python, please have a general idea of Python before staring any development.
 
 ## Donate
 
-- I plan to make the bot open source so I can be completely transparent, as well as because I advocate for Free Open Source Software (FOSS)
 - Your donations are greatly appreciated, and keep the bot server alive.
-- I will update this page with links to donate in the near future.
-
+- You can contact the bot developer on [Discord](https://slatedev.xyz/contact/discord) if you would like to help keep the bot alive.
 
 ~ 5late
