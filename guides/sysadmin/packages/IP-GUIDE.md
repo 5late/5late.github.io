@@ -23,10 +23,18 @@
 
 - Outputs the routing table entry for the device
 
+**``ip neigh``**
+
+- Outputs neighbor objects sharing the same physical link
+
 ## Advanced (?) Command Usage
 
 **``ip addr add {IP} dev {interface}``/ ``ip addr del {IP} dev {interface}``**
 
 - Add/remove ip addresses to an interface
+
+**``ip link set {interface} UP/DOWN``**
+
+- Set an interface up or down
 
 ~ Slate
