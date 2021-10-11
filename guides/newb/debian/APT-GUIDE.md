@@ -4,6 +4,16 @@ The APT package tool is a very popular package manager tool. It ships default on
 
 There are some basic ``apt`` tools which it is worth learning to make using Linux an easier experience.
 
+## List Upgradable Packages
+
+Before you update your system,  it can be helpful to list the upgradable pacakges. To do this, run:
+
+``apt list --upgradable``
+
+Seeing all currently installed packages can be done with:
+
+``apt list --installed``
+
 ## Updating
 
 Updating your system is critical to keep apps, packages and the kernel up to date.
@@ -58,3 +68,28 @@ and replace PACKAGE-NAME with the name of the package you would like to remove. 
 To remove (or uninstall) a package *and all related config files*, run:
 
 ``sudo apt purge PACKAGE-NAME(s)``
+
+## Cleaning/Clearing
+
+If you are running low on space, or want to remove unneeded package details lying around the machine, you can run the following commands.
+
+#### Removing old dependencies
+
+As packages update, they no longer require some dependencies, or transfer to depending on something else. Often the old unused dependencies will remain on your machine until you manually remove them. To remove all unused dependencies:
+
+``sudo apt autoremove``
+
+#### Clear local repository of package files
+
+When you install a package, ``apt`` auto-generates a local copy of the package files. This is to make it much faster to re-install at a later date, and while the files are usually small, as more packages are installed, the local repository can become cluttered and large in size. To clean remove all package files of unneeded packages, run:
+
+``sudo apt autoclean``
+
+If you want to completely clear out the local repository, run:
+
+``sudo apt clean``
+
+
+--- 
+
+~ Slate
