@@ -1,0 +1,53 @@
+# APT Guide
+
+The APT package tool is a very popular package manager tool. It ships default on Debian and Debian based systems.
+
+There are some basic ``apt`` tools which it is worth learning to make using Linux an easier experience.
+
+## Updating
+
+Updating your system is critical to keep apps, packages and the kernel up to date.
+
+``sudo apt update``
+
+This command does not get update the system. It simply looks for new updates, and downloads update information for all the new packages it has detected.
+
+To actually update all the eligible packages, run:
+
+``sudo apt upgrade``
+
+The size of the update will be reported and you will need to confirm your choice.
+
+## Searching for Packages
+
+Searching for new packages can be helpful for a number of reasons. To search, run:
+
+
+
+## Installing Packages
+
+By this time, you have probably already installed packages onto your system. To install a new package simply run:
+
+``sudo apt install PACKAGE-NAME(s)``
+
+and replace PACKAGE-NAME with the name of the package you would like to install. You can install multiple packages at the same time if you choose.
+
+#### Install Specific Version
+
+``sudo apt install PACKAGE-NAME=PACKAGE-VERSION``
+
+## Removing Packages
+
+To remove (or uninstall) a package with ``apt``, run:
+
+``sudo apt remove PACKAGE-NAME(s)``
+
+and replace PACKAGE-NAME with the name of the package you would like to remove. You can remove multiple packages at the same time if you choose.
+
+__**IMPORTANT**__
+
+``apt remove`` only removes the binaries of the package. This means that it leaves behind config files and unneeded dependencies.
+
+To remove (or uninstall) a package *and all related config files*, run:
+
+``sudo apt purge PACKAGE-NAME(s)``
