@@ -37,6 +37,8 @@ Please read the following *before* creating a guide:
 
 ### Sub-Topics
 
+- [New User To Linux](./newb/)
+- [Developer Related](./developer/)
 - [System Administration](./sysadmin/)
 
 ### Articles
@@ -45,9 +47,7 @@ Please read the following *before* creating a guide:
 - [Fix broken kernel on boot](./FIX-BROKEN-KERNEL-BOOT.md)
 - [Fix Pulseaudio permission error](./FIX-PULSEAUDIO-PERMISSION.md)
 - [Fix Flameshot not launching](./FLAMESHOT-DO-NOT-WORK.md)
-- [Learn Markdown](./MARKDOWN-GUIDE.md)
 - [Set up MatterMost](./SET-UP-MATTERMOST.md)
-- [Set up VSCode](./SETUP-VSCODE.md)
 - [Fix Windows 100% disk usage](./FIX-WINDOWS-100-DISK-USAGE.md)
 - [Install from AUR](./arch/INSTALL-FROM-AUR.md)
 
