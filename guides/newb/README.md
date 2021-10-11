@@ -8,4 +8,5 @@ As far as possible, I will try to put commands for both Debian and Debian-based 
 
 ## Articles
 
+- [Install A Browser](./INSTALL-BROWSER.md)
 - [Basic File Commands](../sysadmin/FILE-COMMANDS.md)
