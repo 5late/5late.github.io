@@ -6,7 +6,7 @@ As a new user to Linux, the first few things you may want to do is get things se
 
 - [FireFox](#firefox)
 - [Chromium](#chromium)
-- [Google Chrome](#google%20chrome)
+- [Google Chrome](#google-chrome)
 - [Brave](#brave)
 
 ## FireFox
