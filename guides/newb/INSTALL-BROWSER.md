@@ -4,10 +4,10 @@ As a new user to Linux, the first few things you may want to do is get things se
 
 ## Browsers
 
-- [FireFox](#FireFox)
-- [Chromium](#Chromium)
-- [Google Chrome](#Google%20Chrome)
-- [Brave](#Brave)
+- [FireFox](#firefox)
+- [Chromium](#chromium)
+- [Google Chrome](#google%20chrome)
+- [Brave](#brave)
 
 ## FireFox
 
