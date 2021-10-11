@@ -22,6 +22,13 @@ The size of the update will be reported and you will need to confirm your choice
 
 Searching for new packages can be helpful for a number of reasons. To search, run:
 
+``apt search PACKAGE-NAME``
+
+Often, you already know the package you want to install. To see more information about the package, run:
+
+``apt show PACKAGE-NAME``
+
+This will output important information such as version, dependencies, size of install, etc.
 
 
 ## Installing Packages
@@ -44,7 +51,7 @@ To remove (or uninstall) a package with ``apt``, run:
 
 and replace PACKAGE-NAME with the name of the package you would like to remove. You can remove multiple packages at the same time if you choose.
 
-__**IMPORTANT**__
+**<ins>IMPORTANT</ins>**
 
 ``apt remove`` only removes the binaries of the package. This means that it leaves behind config files and unneeded dependencies.
 
