@@ -75,11 +75,27 @@ Debian:
 
 Arch:
 
+[Also covered in this guide.](../arch/INSTALL-FROM-AUR.md)
+
 [Create an ``installs`` folder]
 
 ``cd installs``
 
-Get the link from [here](https://aur.archlinux.org/packages/google-chrome/)
+Get the 'Git Clone URL' link from [here](https://aur.archlinux.org/packages/google-chrome/)
 
-``git clone`` [Put the link here](https://aur.archlinux.org/packages/google-chrome/)
+``git clone PUT THE LINK HERE``
+
+``cd google-chrome``
+
+``makepkg -si``
+
+#### Uninstalling
+
+Debian:
+
+``sudo dpkg -r google-chrome-stable``
+
+Arch:
+
+``sudo pacman -Rdd google-chrome``
 
