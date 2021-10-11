@@ -6,7 +6,7 @@ As a new user to Linux, the first few things you may want to do is get things se
 
 - [FireFox](#FireFox)
 - [Chromium](#Chromium)
-- [Google Chrome](#Google Chrome)
+- [Google Chrome](#Google%20Chrome)
 - [Brave](#Brave)
 
 ## FireFox
@@ -99,3 +99,27 @@ Arch:
 
 ``sudo pacman -Rdd google-chrome``
 
+## Brave
+
+For instructions on installing, updating, and removing Brave on Debian, I recommend to read [this](https://www.linuxcapable.com/how-to-install-brave-browser-on-debian-11/).
+
+Arch:
+
+Brave follows the exact same installation as Google Chrome on Arch.
+
+``cd installs``
+
+Get the 'Git Clone URL' link from [here](https://aur.archlinux.org/packages/brave/)
+
+``git clone PUT THE LINK HERE``
+
+``cd brave``
+
+``makepkg -si``
+
+
+#### Uninstalling
+
+Arch:
+
+``sudo pacman -Rdd brave``
