@@ -16,21 +16,21 @@ Most Linux distributions come packaged with FireFox out of the box, but installi
 
 #### Installation
 
-Debian:
+**Debian**:
 
 ``sudo apt install firefox``
 
-Arch:
+**Arch**:
 
 ``sudo pacman -S firefox``
 
 #### Uninstalling
 
-Debian:
+**Debian**:
 
 ``sudo apt remove firefox``
 
-Arch:
+**Arch**:
 
 ``sudo pacman -Rdd firefox``
 
@@ -41,21 +41,21 @@ Chromium is an open-source broswer which is nearly identical in nature to Google
 
 #### Installation
 
-Debian:
+**Debian**:
 
 ``sudo apt install chromium``
 
-Arch:
+**Arch**:
 
 ``sudo pacman -S chromium``
 
 #### Uninstalling
 
-Debian:
+**Debian**:
 
 ``sudo apt remove chromium``
 
-Arch:
+**Arch**:
 
 ``sudo pacman -Rdd chromium``
 
@@ -65,7 +65,7 @@ Google Chrome doesn't by default have as easy a set up as FireFox and Chromium, 
 
 #### Installation
 
-Debian:
+**Debian**:
 
 ``cd /tmp`` (creating a temporary install file)
 
@@ -73,7 +73,7 @@ Debian:
 
 ``sudo dpkg -i google-chrome-stable_current_amd64.deb`` (use ``dpkg`` to install Chrome from the ``.deb`` file you downloaded)
 
-Arch:
+**Arch**:
 
 [Also covered in this guide.](../arch/INSTALL-FROM-AUR.md)
 
@@ -91,21 +91,21 @@ Get the 'Git Clone URL' link from [here](https://aur.archlinux.org/packages/goog
 
 #### Uninstalling
 
-Debian:
+**Debian**:
 
 ``sudo dpkg -r google-chrome-stable``
 
-Arch:
+**Arch**:
 
 ``sudo pacman -Rdd google-chrome``
 
 ## Brave
 
-For instructions on installing, updating, and removing Brave on Debian, I recommend to read [this](https://www.linuxcapable.com/how-to-install-brave-browser-on-debian-11/).
+For instructions on installing, updating, and removing Brave on **Debian**, I recommend to read [this](https://www.linuxcapable.com/how-to-install-brave-browser-on-debian-11/).
 
-Arch:
+**Arch**:
 
-Brave follows the exact same installation as Google Chrome on Arch.
+Brave follows the exact same installation as Google Chrome on **Arch**.
 
 ``cd installs``
 
@@ -120,6 +120,6 @@ Get the 'Git Clone URL' link from [here](https://aur.archlinux.org/packages/brav
 
 #### Uninstalling
 
-Arch:
+**Arch**:
 
 ``sudo pacman -Rdd brave``
