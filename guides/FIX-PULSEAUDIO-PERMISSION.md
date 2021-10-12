@@ -1,4 +1,4 @@
-# Guide for fixing a broken Pulseaudio **DUE TO PERMISSION DENIED ERROR**
+# Fix Permission Denied on Pulseaudio
 
 ## Tested on
 
