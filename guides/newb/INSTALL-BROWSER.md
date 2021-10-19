@@ -77,7 +77,7 @@ Google Chrome doesn't by default have as easy a set up as FireFox and Chromium, 
 
 [Also covered in this guide.](../arch/INSTALL-FROM-AUR.md)
 
-[Create an ``installs`` folder]
+[Create an ``installs`` folder](./CREATE-INSTALL-FOLDER.md)
 
 ``cd installs``
 
