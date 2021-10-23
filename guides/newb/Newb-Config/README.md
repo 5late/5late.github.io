@@ -1,6 +1,4 @@
-# [Newb-Config](https://github.com/5late/Newb-Config)
-
-**INSTALL THE SCRIPTS [HERE](https://github.com/5late/Newb-Config)**
+# Newb-Config
 
 These are some basic beginner scripts that will make your life in the Linux Command Line a bit easier and more relaxed.
 
@@ -13,7 +11,11 @@ To jump to the installation instructions, [click here.](#Installation)
 
 The contents of this repo contain scripts and aliases that may be useful to newbies in Linux. Commands such as ``rm`` can be intimidating due to their nature of being destructive and irreversible.
 
+There are also some useful utilites such as sticky notes which can be helpful for productivity.
+
 ## Manual
+
+### Scripts
 
 #### rm command
 - The traditional ``rm`` command is replaced with an alias which points to the [``logrm`` script.](./scripts/logrm.sh) The ``logrm`` script logs all deletions to a hidden file in the users home directory - ``.removelog``.
@@ -21,6 +23,15 @@ The contents of this repo contain scripts and aliases that may be useful to newb
   - To skip logging, use the ``-s`` flag.
 - The [``newrm`` script](./scripts/newrm.sh) replaces the traditional ``rm`` command with a script that automatically backs up all deleted items to a hidden directory in the home folder - ``$HOME/.deleted-files/``
   - To force a delete without backing up the file(s), use the regular ``rm`` command with the ``-f`` (force) flag. Ex: ``rm -f example.txt``
+
+#### stickynote scripts
+- Add a short note with ``addnote NOTE HERE``
+  - To add a longer note, simply run ``addnote`` alone. The terminal will print a empty line for you to begin typing on. Once you are done, you can exit with ``^D``.
+- To see your notes, you can just run ``check``.
+  - To search for a specific note, you can run ``check SEARCH TERM HERE``, the entire line containing the term will be returned.
+  - To remove a specific note, run ``check rm REMOVE TERM HERE``, and all lines containing that term will be removed.
+
+### Aliases
 
 #### cp and mv aliases
 - The ``cp`` alias automatically enables the ``-i`` and ``-v`` flags. The ``-i`` flag will prompt you for confirmation when copying a file that will overwrite a pre-existing file, and the ``-v`` flag will always provide verbose output.
@@ -62,6 +73,10 @@ After answering the prompts, the installation should be complete.
 - Linux Logo
   - Cool ASCII Art (again)
   - Overrides Neofetch sync with my fork of [dotfiles](https://github.com/5late/dotfiles) for log-in art
+
+- figlet
+  - Text-to-Large-Letters formatter
+  - Works alongside the neofetch/linux logo ascii art for my fork of [dotfiles](https://github.com/5late/dotfiles) for log-in art
 
 - Rsync
   - Very powerful copy tool
