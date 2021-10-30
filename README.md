@@ -1,7 +1,7 @@
-# 5late.github.io
+# 5late.github.io - Slate Guides
 
-This website was my first project with web development.
+Slate Guides hosted here.
 
-It features a number of different experiments with CSS and HTML.
+Read the guides [on my guides site.](https://guides.slatedev.xyz/)
 
-I will be making this into my coding website soon-ish.
+Please see the [README in the ``guides`` dir](https://github.com/5late/5late.github.io/tree/master/guides/README.md) to see information about the guides.
