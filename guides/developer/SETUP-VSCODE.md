@@ -18,7 +18,7 @@
 - From here you can create files inside the folder and edit them directly
 - To create a file, hover over the name of the folder on the left side, and click the document icon with the plus sign, as shown below:
 
-![New File](./media/new-file.png)
+![New File](../media/new-file.png)
 
 - You can name the file whatever you'd like, and end it with any suffix, as applies to the language/document type you would like the file to be
 
@@ -26,7 +26,7 @@
 
 - Git is available from the left toolbar, and is an icon as shown below:
 
-![Git Icon](./media/git.png)
+![Git Icon](../media/git.png)
 
 - If you have installed Git correctly, it should show up that you can create a new repository
 - You can choose to create a new repository if you'd like, Git is succesfully linked with VS Code
@@ -36,7 +36,7 @@
 - There are a number of extensions available from the VS Code Marketplace
 - The extension tab should looks as shown below:
 
-![Extension Icon](./media/extension.png)
+![Extension Icon](../media/extension.png)
 
 - For this guide, I will show you the **Discord Presence** and **Live Server** extensions
     - Discord Presence will show your filename and how long you've been editing on Discord, as your game activity
@@ -46,7 +46,7 @@
 - Discord Presence should start working immediately, but may need a restart of VS Code
 - Live Server will require you to click the ``Go Live`` icon at the bottom right as shown below:
 
-![Go Live](./media/go-live.png)
+![Go Live](../media/go-live.png)
 
 
 #### You should now have working VS Code set up with Git, and with some basic extensions
